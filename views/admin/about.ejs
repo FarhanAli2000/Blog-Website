@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= locals.title %></title>
+    <link rel="stylesheet" href="/public/css/style.css"> 
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/register">Register</a></li>
+                <li><a href="/signin">Sign In</a></li>
+                <li><a href="/contact">Contact</a></li>
+                <li><a href="/about">About</a></li> <!-- Add this link -->
+                <!-- Add more navigation items as needed -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <section class="about">
+            <h1>About Us</h1>
+            <p>Welcome to our website. We are dedicated to providing the best services to our customers.</p>
+
+            <h2>Our Mission</h2>
+            <p>Our mission is to deliver top-notch services and exceed customer expectations through dedication and innovation.</p>
+
+            <h2>Our Team</h2>
+            <p>Meet our talented and passionate team members who make it all possible:</p>
+            <ul>
+                <li>John Doe - CEO</li>
+                <li>Jane Smith - CTO</li>
+                <li>Emily Johnson - Lead Developer</li>
+                <!-- Add more team members as needed -->
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; <%= new Date().getFullYear() %> Your Company. All rights reserved.</p>
+    </footer>
+</body>
+</html>
